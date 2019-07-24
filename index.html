@@ -12,6 +12,9 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
 crossorigin="anonymous">
 
+<link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+
     <title>Hello, world!</title>
   </head>
 
@@ -22,22 +25,188 @@ crossorigin="anonymous">
 		margin-top: auto;
 		margin-bottom: auto;
 		box-shadow: 0 0 10px #777;
+		background-image: url(assets/Vidushe10.jpg);
+		background-size: cover;
+		height: 600px;
+		width: 800px;
+	}
+
+	.card-2 {
+		margin: 0 auto;
+		float: 0;
+		margin-top: auto;
+		margin-bottom: auto;
+		box-shadow: 0 0 10px #777;
+		background-image: url(assets/Vidushe11.jpg);
+		background-size: cover;
+		height: 600px;
+		width: 800px;
+	}
+
+	.card-3 {
+		margin: 0 auto;
+		float: 0;
+		margin-top: auto;
+		margin-bottom: auto;
+		box-shadow: 0 0 10px #777;
+		background-image: url(assets/Vidushe12.jpg);
+		background-size: cover;
+		height: 600px;
+		width: 800px;
+	}
+
+	.card-4 {
+		margin: 0 auto;
+		float: 0;
+		margin-top: auto;
+		margin-bottom: auto;
+		box-shadow: 0 0 10px #777;
+		background-image: url(assets/Vidushe13.jpg);
+		background-size: cover;
+		height: 600px;
+		width: 800px;
+	}
+
+	.card-5 {
+		margin: 0 auto;
+		float: 0;
+		margin-top: auto;
+		margin-bottom: auto;
+		box-shadow: 0 0 10px #777;
+		background-image: url(assets/Vidushe15.jpg);
+		background-size: cover;
+		height: 600px;
+		width: 800px;
+	}
+
+	.card-6 {
+		margin: 0 auto;
+		float: 0;
+		margin-top: auto;
+		margin-bottom: auto;
+		box-shadow: 0 0 10px #777;
+		background-image: url(assets/Vidushe18.jpg);
+		background-size: cover;
+		height: 600px;
+		width: 800px;
 	}
 
 	.my-auto {
 		margin-top: auto;
 		margin-bottom: auto;
 	}
+
+	.card-img-top {
+		background-color: cover; 
+		height: 175px;
+	}
+
+	.img__wrap {
+  position: relative;
+  height: 600px;
+  width: 800px;
+	}
+
+	.img__description_layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(47, 50, 63, 0.6);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description_layer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img__description {
+  transition: .2s;
+  transform: translateY(1em);
+}
+
+.img__wrap:hover .img__description {
+  transform: translateY(0);
+}
   </style>
 <body>
 		<div class='container-fluid' style="height:100vh">
-			<div class="row h-100">
-				<div class="col-md-12 my-auto">
-				  <div class="card card-block w-25 card-1 text-md-center">
-					  <h1>Vidushe</h1>
-				  </div>
-				</div>
-			 </div>
+					<div class="row h-100">
+							<div class="col-md-12 my-auto">
+								<div class='owl-carousel owl-theme'>
+									<div class="col-md-12">
+									<div class="card card-block card-1 text-md-center">
+											<div class="img__wrap">
+													<!-- <img class="img__img" src="http://placehold.it/257x200.jpg" /> -->
+													<div class="img__description_layer">
+														<p class="img__description">This image looks super neat.</p>
+													</div>
+												</div>
+									</div>
+									</div>
+									<div class="col-md-12">
+									<div class="card card-block card-2 text-md-center">
+											<div class="img__wrap">
+													<!-- <img class="img__img" src="http://placehold.it/257x200.jpg" /> -->
+													<div class="img__description_layer">
+														<p class="img__description">This image looks super neat.</p>
+													</div>
+												</div>
+									</div>
+									</div>
+									<div class="col-md-12">
+										<div class="card card-block card-3 text-md-center">
+												<div class="img__wrap">
+														<!-- <img class="img__img" src="http://placehold.it/257x200.jpg" /> -->
+														<div class="img__description_layer">
+															<p class="img__description">This image looks super neat.</p>
+														</div>
+													</div>
+										</div>
+										</div>
+										<div class="col-md-12">
+												<div class="card card-block card-4 text-md-center">
+														<div class="img__wrap">
+																<!-- <img class="img__img" src="http://placehold.it/257x200.jpg" /> -->
+																<div class="img__description_layer">
+																	<p class="img__description">This image looks super neat.</p>
+																</div>
+															</div>
+										</div>
+										</div>
+										<div class="col-md-12">
+												<div class="card card-block card-5 text-md-center">
+														<div class="img__wrap">
+																<!-- <img class="img__img" src="http://placehold.it/257x200.jpg" /> -->
+																<div class="img__description_layer">
+																	<p class="img__description">This image looks super neat.</p>
+																</div>
+															</div>
+										</div>
+										</div>
+										<div class="col-md-12">
+												<div class="card card-block card-6 text-md-center">
+														<div class="img__wrap">
+																<!-- <img class="img__img" src="http://placehold.it/257x200.jpg" /> -->
+																<div class="img__description_layer">
+																	<p class="img__description">This image looks super neat.</p>
+																</div>
+															</div>
+										</div>
+										</div>
+								</div>
+							</div>
+					</div>
 		</div>
 
     <!-- Optional JavaScript -->
@@ -53,5 +222,29 @@ crossorigin="anonymous"></script>
 src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
 integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
 crossorigin="anonymous"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+<script>
+	$(document).ready(function(){
+  $(".owl-carousel").owlCarousel();
+});
+$('.owl-carousel').owlCarousel({
+    stagePadding: 1,
+    loop:false,
+    margin:10,
+    nav:false,
+		singleItem: true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});
+</script>
   </body>
 </html>
